@@ -1,0 +1,329 @@
+
+::-webkit-scrollbar-track {
+    width: 10px;
+    border-radius: 6.5px;
+    /*background: rgb(58, 63, 84);*/
+    background:white;
+}
+
+::-webkit-scrollbar {
+    -webkit-border-radius: 6.5px;
+    border-radius: 6.5px;
+    border-radius: 6.5px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(88, 190, 212, 0.5);;
+    border-radius: 6.5px;
+}
+p {
+    text-align: justify;
+}
+
+span {
+    font-size: 12px;
+}
+
+div {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+#debug {
+    color: red;
+    font-weight: bold;
+}
+#resetVariables{
+    text-decoration: none;
+    background-color: rgba(29,223,137,1);
+    color:white;
+    font-weight: bold;
+    border: none;
+    font-size: 13px;
+    padding:5px 20px;
+    border-radius: 10px;
+}
+#ethicForm {
+    width: 70%;
+    height: 45vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    overflow-y: auto;
+    background-color:rgba(88, 190, 212, 1);
+    color:white;
+    padding-bottom: 20px;
+}
+#ethicForm h1{
+    color:black;
+}
+#submitEthic {
+    background-color: transparent;
+    padding: 2px 0px;
+    color:white;
+}
+
+
+#submitEthic button{
+    text-decoration: none;
+    background-color: rgba(29,223,137,1);
+    color:white;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    padding:5px 20px;
+}
+#wrapper {
+    width: 1000px;
+    height: 520px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 2px 0px;
+    background: #e6e6e6;
+    border: 1px solid #bfbfbf;
+}
+
+#wrapper:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+
+}
+
+#first {
+    float: left;
+    width: 200px;
+    height: 70px;
+}
+
+#second {
+    float: left;
+    width: 600px;
+    height: 70px;
+}
+
+#third {
+    padding-left: 5px;
+    float: left;
+    width: 1000px;
+    height: 400px;
+}
+
+#fourth {
+    border: 1px solid #bfbfbf;
+    background-color: #ffffff;
+    background-color: white;
+    padding-left: 5px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#fourth:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+
+}
+.hidden{
+    display: none;
+}
+.wrapper-hidden {
+    background: none !important;
+    border: none !important;
+}
+.chart {
+
+}
+
+.instructions {
+    /*background-color: #e6e6e6;*/
+    background-color: red;
+    position: absolute;
+    border: 1px solid #ccc;
+    width: 1020px;
+    height: 550px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    display: none;
+}
+
+.part2-wrapper{
+    height: 570px!important;
+}
+
+.instructions2 {
+    background-color: white;
+    position: absolute;
+    top: 430px;
+    border: 1px solid #8c8c8c;
+    width: 977px;
+    height: 180px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-left:5px;
+}
+
+.instructions h3 {
+    padding: 0;
+    margin: 0;
+    color: #002966;
+/ / 369;
+}
+
+.instructions:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+}
+
+#close {
+    float: right;
+    display: inline-block;
+    padding: 2px 5px;
+    background: #ccc;
+}
+
+.red {
+    color: red;
+    font-size: 16px;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 16px;
+    height: 16px;
+    padding: 1px;
+
+    background: #ffffff;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+
+    font: 14px Arial, sans-serif;
+}
+.welcome-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game-block img{
+    width:350px;
+    height: 400px;
+}
+.welcome-to-blockworld{
+    background-color:rgba(88, 190, 212, 1);
+    width: 70%;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.welcome-to-blockworld p{
+    color:white;
+    margin-left:20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-align: left!important;
+}
+.welcome-to-blockworld a{
+    text-decoration: none;
+    background-color: rgba(29,223,137,1);
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left:30px;
+    padding-right:30px;
+
+}
+.welcome-to-blockworld h1{
+    font-weight: bold;
+}
+
+.instructions-part-1{
+    color:white;
+    margin-top: 60px;
+}
+.instructions-part-1 p{
+    text-align: left;
+}
+.instructions-part-1 button{
+    text-decoration: none;
+    background-color: rgba(29,223,137,1);
+    color:white;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    padding:5px 20px;
+}
+.part-2-name{
+    background-color:rgba(88, 190, 212, 1);
+    padding-top: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+}
+
+.base-timer {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.base-timer__svg {
+    transform: scaleX(-1);
+}
+
+.base-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+.base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+    color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+    color: orange;
+}
+
+.base-timer__path-remaining.red {
+    color: red;
+}
+
+.base-timer__label {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
