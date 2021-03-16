@@ -1,22 +1,23 @@
 <?php
-
 use Illuminate\Database\Seeder;
 use App\User;
 
-class UserSeeder extends Seeder
+class UserTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      *
      * @return void
      */
-
-
-
     public function run()
     {
-
-    	User::create(['name' => 'Admin', 'email' => 'admin@admin.com', password' => bcrypt('admin1234'), 'is_admin' => 1]);
-        //
+        if(config('admin.admin_name')) {
+            User::firstOrCreate(
+                ['email' => config('admin.admin_email')], [
+                    'name' => config('admin.admin_name'),
+                    'password' => bcrypt(config('admin.admin_password')),
+                ]
+            );
+        }
     }
 }
