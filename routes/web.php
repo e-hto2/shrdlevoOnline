@@ -38,6 +38,6 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.','middleware' => ['admin'], '
     Route::resource('game_dash','GameDashController');
     Route::post('/download_json','GameDashController@download_json')->name('download_json');
     Route::post('/view_personal_information','GameDashController@view_personal_information')->name('view_personal_information');
-    Route::get('/login','AdminUserController@index')->name('login');
+    Route::get('/login','AdminUserController@index')->name('client.home');
 
 });
