@@ -37,7 +37,7 @@ class LoginController extends Controller
                 return $this->redirectTo;
                 break;
             case "user":
-                $this->redirectTo = route('client.home');
+                $this->redirectTo = route('client.home1');
                 return $this->redirectTo;
                 break;
             default:
