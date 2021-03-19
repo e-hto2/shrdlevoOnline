@@ -37,7 +37,8 @@ class LoginController extends Controller
                 return $this->redirectTo;
                 break;
             case "user":
-                $this->redirectTo = route('client.home1');
+                $this->redirectTo = route('admin.game_dash.index');
+                // $this->redirectTo = route('client.home');
                 return $this->redirectTo;
                 break;
             default:
