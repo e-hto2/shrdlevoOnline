@@ -17,7 +17,7 @@ function randomTokensForWords(){
 		num_tokens = words[i].token.split(',').length;
 		for(var j=0;j<num_tokens;j++){
 			if(new_tokens!="")new_tokens+=",";
-			var topSelection = randomIntFromInterval(5,20);
+			var topSelection = randomIntFromInterval(5,19);
 			var botSelection = topSelection - 4;
 			index = randomIntFromInterval(botSelection,topSelection);		
 			new_tokens += posible_tokens[index];
