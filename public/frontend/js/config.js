@@ -1,9 +1,9 @@
 //Configuration variables and Init variables
 var version=1.44;
 
-var randomTasks = false;
+var randomTasks = true;
 var numberAttempts = 5;
-var debugMode = true;
+var debugMode = false;
 var saveInServer = true;
 var downloadJSON = false;
 var dataFromSomata = true;
