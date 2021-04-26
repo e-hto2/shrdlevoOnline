@@ -3,7 +3,7 @@ var version=1.44;
 
 var randomTasks = false;
 var numberAttempts = 5;
-var debugMode = false;
+var debugMode = true;
 var saveInServer = true;
 var downloadJSON = false;
 var dataFromSomata = true;
